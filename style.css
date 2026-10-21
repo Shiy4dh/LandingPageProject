@@ -1,3 +1,7 @@
+body{
+    font-family:'Roboto',sans-serif;
+}
+
 .sectionOne{
     background-color:#1F2937;
 }
@@ -6,6 +10,10 @@
     color: white;
     display: flex;
     justify-content: space-around;
+}
+
+.header p{
+    font-weight: bold;
 }
 
 
@@ -26,6 +34,7 @@ a{
     display: flex;
     padding-left: 120px;
     color: white;
+    justify-content: center;
 }
 
 button{
@@ -43,5 +52,77 @@ button{
 img{
     width:300px;
     height: 150px;
-    padding-top: 48px;
+   
+}
+
+.sectionTwo{
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+    padding: 40px;
+    padding-bottom: 60px;
+    
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box{
+   
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.box img{
+
+    border-style: solid;
+   border-color: #3882F6;
+   border-radius: 8px;
+   width: 200px;
+}
+
+.heroImage{
+    padding-top: 78px;
+    padding-left: 40px;
+}
+
+.sectionThree{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 95px;
+}
+
+.sectionThree p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sectionFour{
+    background-color:#3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    margin: 160px 300px;
+    border-radius: 8px;
+    
+
+}
+
+.sectionFour button{
+    height: 50px;
+    margin-left: 100px;
+    border-color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
 }
